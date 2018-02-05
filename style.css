@@ -1,0 +1,507 @@
+/* 
+html5doctor.com Reset Stylesheet
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CODE*/
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.main-wrapper{
+	margin: 0 auto;
+	width: 1000px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: #ccc;
+}
+
+header nav{
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+
+}
+
+header nav ul{
+	float: left;
+	margin-left: 100px; 
+}
+
+
+header nav ul li{
+	float: left;
+	list-style: none;
+	/*text-align: center;*/
+	padding: 0 30px;
+}
+
+
+header nav ul li a{
+	font-family: verdana;
+	font-size: 16px;
+	color: #111;
+	line-height: 63px
+}
+
+.header-name h1{
+	font-size: 25px;
+    font-family: sans-serif;
+    padding-top: 17px;
+}
+
+
+header .nav-login{
+	float: right;
+	padding-right: 50px;
+}
+
+header .nav-login form{
+	float: left;
+	padding-top: 15px;
+}
+
+
+header .nav-login form input{
+	float: left;
+	width: 140px;
+	height: 30px;
+	padding: 0px 10px;
+	margin-right: 10px;
+	border: none;
+	background-color: #ccc;
+	font-family: verdana;
+	font-size: 14px;
+	color: #111;
+	line-height: 30px
+}
+
+
+header .nav-login form button{
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right: 10px;
+	border: none;
+	background-color: #f3f3f3;
+	font-family: verdana;
+	font-size: 14px;
+	color: #111;
+	cursor: pointer;
+}
+
+header .nav-login form button:hover{
+	background-color: #ccc;
+}
+
+header .nav-login a{
+	display: block;
+	width: 80px;
+	height: 60px;
+	border:none;
+	float: left;
+	background-color: #fff;
+	font-family: verdana;
+	font-size: 16px;
+	color: #111;
+	line-height: 63px;
+	cursor:pointer;
+}
+
+.main-container{
+	padding-top: 40px;
+}
+
+.active{
+	background-color: #ccc;
+}
+
+
+/*index.php*/
+
+.index h1{
+	font-size: 300%;
+}
+
+.index h2{
+	font-size: 200%;
+}
+
+.image-wrapper{
+	margin-left: 180px;
+}
+.image-wrapper img{
+	width: 600px;
+	height: 400px;
+}
+
+/*Signup.php*/
+
+.signup-form{
+	width:400px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.signup-form input{
+	width: 90%;
+	height:40px;
+	padding: 0 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: verdana;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px	
+}
+
+.signup-form button{
+	display: block;
+	margin: 0 auto;
+	width:30%;
+	height: 40px;
+	border: none;
+	background-color: #222;
+	font-family: verdana;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.signup-form button:hover{
+	background-color: #111;
+}
+
+
+/*services.php*/
+.services img{
+	width: 800px;
+	height: 400px;
+}
+
+.services h2{
+	font-size: 400%;
+}
+
+.services p{
+	font-size: 300%
+}
+
+.services .title{
+	display: block;
+	width:1024px;
+	height: 700px;
+	text-align: center;
+	color: black;
+=}
+
+.services .music{
+	display: block;
+	width:1024px;
+	height: 700px;
+	text-align: center;
+	color: black;
+	margin-bottom: 200px;
+}
+
+.services .photography{
+	display: block;
+	width:1024px;
+	height: 700px;
+	text-align: center;
+	color: black;
+	margin-bottom: 200px;
+}
+
+.services .catering{
+	display: block;
+	width:1024px;
+	height: 700px;
+	text-align: center;
+	color: black;
+	margin-bottom: 200px;
+}
+
+/*about.php*/
+
+.about img{
+	width: 75%;
+	margin-left: 13.5%;
+}
+
+.about .about-wrapper{
+
+	padding: 40px;
+}
+
+
+
+.about h2{
+	text-align: center;
+	font-size: 250%;
+}
+
+
+
+
+
+
+/*newEvent.php*/
+.event-form{
+	width:800px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 15%;
+}
+
+.space{
+	/*display: block;*/
+	margin-bottom: 10px;
+}
+.event-form label{
+	width: 40%;
+	height: 40px;
+	padding: 0 5%;
+	margin-bottom: 4px;
+	border: none;
+	font-family: verdana;
+	font-size: 16px;
+	line-height: 40px	
+}
+
+.event-form input{
+	float: right;
+	width: 60%;
+	height: 40px;
+	padding-left: 3%; 
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: verdana;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+	display: inline-block;	
+}
+
+.event-form select{
+	float: right;
+	width: 63%;
+	height:40px;
+	padding-left: 3%; 
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: verdana;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+	display: inline-block;	
+}
+
+.event-form textarea{
+	float: right;
+	width: 59.95%;
+	height:40px;
+	padding-left: 3%; 
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: verdana;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+	display: inline-block;	
+}
+
+.event-form .buttons{
+	margin-top: 60px;
+}
+.event-form button{
+	align-content: center;
+	margin: 0 auto;
+	width:40%;
+	height: 40px;
+	border: none;
+	background-color: #222;
+	font-family: verdana;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.event-form button:hover{
+	background-color: #111;
+}
+
+.event-form .left{
+	float: left;
+}
+
+.event-form .right{
+	float: right;
+	width: 40%;
+}
+
+/*registration.php*/
+.reg-buttons{
+	width: 50%;
+	height: 0 auto;
+}
+
+.reg-buttons .showEvents input{
+	width: 50%;
+	height: 40px;
+	float: left;
+}
+
+.reg-buttons .newEvent input{
+	width: 50%;
+	height: 40px;
+	float: right;
+}
+
+.reg-buttons input:hover, .back-button input:hover{
+	color: white;
+	background-color: #111;
+}
+
+/*show data*/
+
+.show-data{
+	font-family: verdana;
+	font-size: 16px;
+}
+
+.show-data table{
+	width: 90%;
+	margin: 0 auto;
+}
+.show-data table, .show-data th, .show-data td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.show-data th, .show-data td{
+	padding: 5px;
+	text-align: center;
+}
+
+.show-data th{
+	background-color: #a70000;
+	color: white;
+}
+
+.show-data tr:nth-child(even){
+	background-color: #e8e8e8;
+}
+
+.back-button input{
+	height: 40px;
+	margin-top: 50px;
+	margin-left: 45%;
+}
+
